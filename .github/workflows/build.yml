@@ -25,4 +25,4 @@ jobs:
           docker buildx build \
             --platform linux/amd64,linux/arm64 \
             --push \
-            -t ghcr.io/${{ github.repository_owner }}/${{ github.repository_name }}:latest .
+            -t ghcr.io/${{ github.repository_owner }}/docker-ria-storage:latest .
